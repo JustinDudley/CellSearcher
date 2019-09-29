@@ -15,7 +15,7 @@ namespace CellSearcher.Controllers
     {
         private readonly Alg927DbContext _context;
 
-        public CellsController(Alg927DbContext context)
+        public CellsController(Alg927DbContext context) 
         {
             _context = context;
         }
