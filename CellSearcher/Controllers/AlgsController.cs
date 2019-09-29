@@ -18,7 +18,7 @@ namespace CellSearcher.Controllers
 
         public AlgsController(Alg927DbContext context)
         {
-            _context = context;
+            _context = context; 
         }
 
         // GET: api/Algs
