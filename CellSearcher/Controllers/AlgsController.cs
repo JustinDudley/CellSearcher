@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CellSearcher.Models;
 
+// I am writing this on the master branch.  I will save it.  I don't see how this could possible affect other branches.
+// this is the master branch
 //URL 52750
 namespace CellSearcher.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController] 
     public class AlgsController : ControllerBase
     {
         private readonly Alg927DbContext _context;
