@@ -7,10 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CellSearcher.Models;
 
-//on master branch.  Not saving.
-// on master branch.  Will save, but not commit.
-// I am writing this on the master branch.  I will save it.  I don't see how this could possible affect other branches.
-// this is the master branch
+//on MASTER BRANCH
+
 //URL 52750
 namespace CellSearcher.Controllers
 {
